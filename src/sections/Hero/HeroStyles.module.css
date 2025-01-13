@@ -13,7 +13,6 @@
     border-radius: 40%;
   }
 
-
   span {
     display: flex;
     gap: 25px;
@@ -82,6 +81,14 @@
   .description {
     max-width: 90%;
     font-size: 0.9rem;
+  }
+
+  .hero {
+    max-width: 200px !important;
+    width: 200px !important;
+    height: 200px !important; /* Explicit height override */
+    border-radius: 20%;
+    background-color: lightblue; /* For testing */
   }
 }
 
