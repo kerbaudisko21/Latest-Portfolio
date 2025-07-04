@@ -48,7 +48,7 @@ function Hero() {
           Passionate backend developer with 2 years of experience, dedicated to building efficient systems and continuously learning to improve.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className={styles.hover}>Resume</button>
         </a>
       </div>
     </section>
